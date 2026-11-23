@@ -4,7 +4,6 @@ variable "engine_name" {
   default     = "mysql"
 }
 
-
 variable "db_name" {
   description = "Enter the name of the database to be created inside DB Instance"
   type        = string
@@ -40,5 +39,5 @@ variable "delete_automated_backup" {
 }
 variable "instance_class" {
   type    = string
-  default = "db.t2.micro"
+  default = "db.t3.micro"
 }
